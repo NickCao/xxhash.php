@@ -8,7 +8,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0 || ^10.0 || ^11.0",
-        "giorgiosironi/eris": "^1.1"
+        "giorgiosironi/eris": "^1.1",
+        "phpbench/phpbench": "^1.6"
     },
     "autoload": {
         "psr-4": {
