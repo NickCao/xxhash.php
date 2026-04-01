@@ -21,6 +21,9 @@ class MathTest extends TestCase
 
     protected function setUp(): void
     {
+        if (!extension_loaded('gmp')) {
+            $this->markTestSkipped('GMP extension required');
+        }
         $this->limitTo(self::RANDOM_SAMPLES);
     }
 
